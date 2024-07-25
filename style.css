@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+button{
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    background-color:#171717;
+    border: none;
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+    box-shadow: inset 3px 5px 10px  rgb(5,5,5);
+    
+}
+.row1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    padding:25px;
+}
+.cal{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0,0%,30%);
+    border-radius: 15px;
+    max-width:500px;
+    overflow:hidden;
+  
+    
+    box-shadow: inset 10px 10px 10px rgb(5,5,5); 
+}
+#display{
+    
+    box-shadow: inset 10px 10px 10px rgb(5,5,5); 
+    width: 100%;
+    padding:20px;
+    font-size:5rem;
+    text-align:left;
+    border: none;
+    background-color: hsl(0,0%,20%);
+    color:white;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: hsl(0,0%,90%);
+    
+    box-shadow: inset 10px 10px 10px rgb(5,5,5); 
+}
+button:hover{
+    background-color: hsl(0,0%,40%);
+}
+button:active{
+    background-color: hsl(0,0%,50%);
+}
+#icon{
+    background-color: hsl(35,100%,55%);
+}
+#icon:hover{
+    background-color: hsl(35,100%,75%);
+}
+#icon:active{
+    background-color: hsl(35,100%,75%);
+}
